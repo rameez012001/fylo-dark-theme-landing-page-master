@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+html,body{
+    font-size: 62.5%;
+    height: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+h1{
+    font-family: 'Raleway',sans-serif;
+}
+p,a{
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(0, 0%, 88%);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color:hsl(217, 27%, 15%);
+}
+#nav1{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Raleway',sans-serif;
+    font-size: 1.6rem;
+    padding: 2.6em 3.6em;
+    margin-top: 1.4em;
+}
+#nav1 img{
+    width: 65%;
+}
+#nav1 li{
+    display:inline;
+    padding: 0 1em;
+}
+.Intro{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 15%;
+}
+.Intro img{
+    width: 100%;
+    max-width: 70%;
+    min-width: 100ch;
+    padding: 1em 0;
+    margin:10.5em 0;
+}
+.Intro h1,p{
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    z-index: 1;
+}
+.Intro h1{
+    font-size:4.3rem;
+}
+.Intro p{
+    font-size: 2rem;
+    padding: 1.5em 2.5em 1.5em;
+    text-align: center;
+}
+#BgcImg{
+    position: relative;
+    bottom: 200px;
+    width: 100%;
+}
+/* .sect2{
+    background-color:hsl(218, 28%, 13%) ;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    text-align: center;
+    font-size: 1rem!important;
+
+}
+.product{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.product section{
+    font-size: 1.6rem;
+    text-align: left;
+}
+h1,h2{
+    color: hsl(0, 0%, 100%);
+}
+p{
+    color: hsl(0, 0%, 100%);
+}
+#Qot{
+    position: relative;
+    top: 10px;
+}
+.card{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.card section{
+    background-color: hsl(216,53%,9%);
+    margin: 0 1em;
+    z-index: 1;
+}
+.card section h1{
+    color: hsl(0, 0%, 100%);
+    text-align: left;
+    font-size: 1.6rem;
+}
+.card section p{
+    color: hsl(0, 0%, 88%);
+    text-align: left;
+    font-size: 1.6rem;
+}
+.card img{
+    width: 40px;
+    border-radius: 25px;
+}
+.getEarly{
+    z-index: 1;
+    background-color: hsl(217, 27%, 15%);
+    display: block;
+    align-self: center;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    padding: 1em;
+}
+
+.getEarly input{
+    border-radius: 8px;
+    border: none;
+    background-color: #fff;
+    outline: none;
+}
+.getEarly button{
+    color: #fff;
+    background:linear-gradient(to right,hsl(176, 68%, 64%),hsl(198, 60%, 50%));
+    border-radius: 24px;
+    border: none;
+    outline: none;
+    padding: .5em;
+}
+footer,footer nav{
+    background-color:hsl(216, 53%, 9%);
+} */
