@@ -2,12 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 html,body{
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* scroll-behavior: smooth; */
 }
 ul{
     list-style: none;
@@ -249,6 +249,7 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    bottom: 37em;
 }
 #logo2{
     padding: 5em 2em;
