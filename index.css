@@ -12,142 +12,141 @@ html,body{
     list-style: none;
     text-decoration: none;
 }
-h1{
-    font-family: 'Raleway',sans-serif;
-}
-p,a{
+ul{
+    list-style: none;
     font-family: 'Open Sans', sans-serif;
-    color: hsl(0, 0%, 88%);
+}
+li{
+    color: rgb(199, 199, 199);
+}
+a{
+    text-decoration: none;
+    color: rgb(199, 199, 199);
+}
+h1,h2{
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+}
+p{
+    color:rgb(199, 199, 199);
+    font-family: 'Open Sans', sans-serif;
 }
 .container{
+    background-color:hsl(217, 27%, 15%);
     display: flex;
     flex-direction: column;
-    background-color:hsl(217, 27%, 15%);
 }
 #nav1{
     display: flex;
     justify-content: space-between;
-    font-family: 'Raleway',sans-serif;
-    font-size: 1.6rem;
-    padding: 2.6em 3.6em;
-    margin-top: 1.4em;
+    margin: 2em;
 }
-#nav1 img{
-    width: 65%;
-}
-#nav1 li{
-    display:inline;
-    padding: 0 1em;
-}
-.Intro{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin: 0 15%;
-}
-.Intro img{
+#nav-u1 img{
     width: 100%;
-    max-width: 70%;
-    min-width: 100ch;
-    padding: 1em 0;
-    margin:10.5em 0;
+    max-width:35ch;
+    padding: 5.7em 6em;
 }
-.Intro h1,p{
-    color: hsl(0, 0%, 100%);
-    text-align: center;
+#nav-u2{
+    padding: 6.7em 6em;
+}
+#nav-u2 li{
+    padding: 0 .8em;
+    font-size: 1.4rem;
+    display: inline;
+}
+#nav-u2 a{
+    color: rgb(199, 199, 199);
+}
+#picture1{
+    align-self: center;
+    margin: 3em 0;
     z-index: 1;
 }
-.Intro h1{
-    font-size:4.3rem;
+#section1{
+    margin:2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index:1;
 }
-.Intro p{
-    font-size: 2rem;
-    padding: 1.5em 2.5em 1.5em;
+#section1 h1{
+    padding: .5em 1em;
+    text-align:center;
+    font-size: 2.0rem;
+    line-height: 1.5em;
+    padding: 1em 23%;
+}
+#section1 p{
+    padding: .5em 3.5em;
+    text-align:center;
+    font-size: 1.6rem;
+    line-height: 1.7em;
+    padding: 0 23%;
+}
+
+#section1 button{
+    background:radial-gradient(hsl(198, 60%, 50%),hsl(176, 68%, 64%)) ;
     text-align: center;
+    border: none;
+    border-radius: 2.9rem;
+    width: 30ch;
+    padding: 1em .5em;
+    margin: 1.8em 0;
+    color: white;
+    font-weight: 550;
 }
-#BgcImg{
-    position: relative;
-    bottom: 200px;
+main{
+    background-color: hsl(218, 28%, 13%);
+}
+#picture2{
     width: 100%;
 }
-/* .sect2{
-    background-color:hsl(218, 28%, 13%) ;
+#dbgimg{
+    width: 100%;
+    overflow-x: hidden;
+    display: block;
 }
-.grid{
+#pbgimg{
+    display: none;
+}
+#fturs{
     display: grid;
     grid-template-columns: auto auto;
     justify-content: center;
     text-align: center;
-    font-size: 1rem!important;
-
 }
-.product{
+.features>*{
+    margin:  1em 7em;
+}
+#fturs h1{
+    font-size: 1.6rem;
+}
+#fturs p{
+    font-size: 1.4rem;
+    padding: 1em 2.5em;
+}
+#productive{
+    margin: 15em 6%;
+    padding: 5em 0;
     display: flex;
-    justify-content:space-around;
+    flex-direction: column;
     align-items: center;
 }
-.product section{
-    font-size: 1.6rem;
-    text-align: left;
+#illprod{
+    width: 100ch;
 }
-h1,h2{
-    color: hsl(0, 0%, 100%);
+#productive h1{
+    font-size: 1.8rem;
+    align-self: flex-start;
 }
-p{
-    color: hsl(0, 0%, 100%);
+#productive p{
+    font-size: 1.2rem;
 }
-#Qot{
+#productive a{
+    align-self: flex-start;
+    padding: 1em 0;
+    font-size: 1.4rem;
+    color: cyan;
+    text-decoration: dashed!important;
     position: relative;
-    top: 10px;
 }
-.card{
-    display: grid;
-    grid-template-columns: auto auto auto;
-}
-.card section{
-    background-color: hsl(216,53%,9%);
-    margin: 0 1em;
-    z-index: 1;
-}
-.card section h1{
-    color: hsl(0, 0%, 100%);
-    text-align: left;
-    font-size: 1.6rem;
-}
-.card section p{
-    color: hsl(0, 0%, 88%);
-    text-align: left;
-    font-size: 1.6rem;
-}
-.card img{
-    width: 40px;
-    border-radius: 25px;
-}
-.getEarly{
-    z-index: 1;
-    background-color: hsl(217, 27%, 15%);
-    display: block;
-    align-self: center;
-    text-align: center;
-    border-radius: 5px;
-    font-size: 1.3rem;
-    padding: 1em;
-}
-
-.getEarly input{
-    border-radius: 8px;
-    border: none;
-    background-color: #fff;
-    outline: none;
-}
-.getEarly button{
-    color: #fff;
-    background:linear-gradient(to right,hsl(176, 68%, 64%),hsl(198, 60%, 50%));
-    border-radius: 24px;
-    border: none;
-    outline: none;
-    padding: .5em;
-}
-footer,footer nav{
-    background-color:hsl(216, 53%, 9%);
-} */

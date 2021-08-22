@@ -105,9 +105,12 @@ p{
     top: -19em;
     width: 100%;
 }
-#bgimg{
+#pbgimg{
     width: 100%;
     overflow-x: hidden;
+}
+#dbgimg{
+    display: none;
 }
 main{
     background-color: hsl(218, 28%, 13%);
