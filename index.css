@@ -187,3 +187,49 @@ main{
     position: relative;
     top: 2rem;
 }
+footer{
+    background-color:hsl(216, 53%, 9%);
+    padding:0 5%;
+    display:grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: space-evenly;
+    grid-column-gap: 2.5rem;
+}
+#logo2{
+    padding: 5em 2em;
+    width: 10%;
+    grid-column:1/6;
+}
+footer li{
+    font-size: 2rem;  
+    display: block;
+}
+.contacts li{
+    font-size: 1.6rem;
+}
+.con{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+#li1{
+    background:url('./icon-location.svg') no-repeat -.020em .11em;
+    padding: 0 2em;
+}
+#li2{
+    background:url('./images/icon-phone.svg') no-repeat -.020em .11em;
+    padding: 0 2em;
+}
+#li3{
+    background:url('./images/icon-email.svg') no-repeat -.020em .11em;
+    grid-column: 2/3;
+    padding: 0 2em;
+}
+.socialogos ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.socialogos img{
+    width: 2.7rem;
+    padding: 0 .2em;
+}
