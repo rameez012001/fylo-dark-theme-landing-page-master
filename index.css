@@ -4,6 +4,8 @@
 html,body{
     font-size: 62.5%;
     height: 100%;
+    margin: 0;
+    padding: 0;
     
 }
 
@@ -142,7 +144,6 @@ main{
 }
 #productive h1{
     font-size: 2.8rem;
-    align-self: flex-start;
     line-height: 1.5em;
 }
 #productive p{
@@ -151,11 +152,9 @@ main{
     padding: .3em 0;
 }
 #productive a{
-    align-self: flex-start;
     padding: 1em 0;
     font-size: 1.8rem;
     color: cyan;
-    text-decoration: dashed!important;
     position: relative;
 }   
 .cards{
@@ -201,18 +200,12 @@ main{
     position: absolute;
     top: -16rem;
     background-color:hsl(219, 30%, 18%);
-    /* display: flex;
-    align-self: center;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between; */
     display:grid;
     grid-template-columns: auto auto auto auto;
     z-index: 1;
     text-align: center;
     padding: 5em;
-    margin: 2em;
-    width: 90%;
+    margin: 2em;    
     border-radius: 7px;
 }
 .gteac h1{

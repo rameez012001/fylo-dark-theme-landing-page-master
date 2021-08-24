@@ -203,7 +203,7 @@ main{
 }
 .gteac{
     position: absolute;
-    top: -16rem;
+    top: -24rem;
     background-color:hsl(219, 30%, 18%);
     display: flex;
     align-self: center;
@@ -214,7 +214,6 @@ main{
     text-align: center;
     padding: 5em;
     margin: 2em;
-    width: 90%;
     border-radius: 7px;
 }
 .gteac h1{
@@ -257,7 +256,7 @@ footer{
     bottom: 37em;
 }
 #logo2{
-    padding: 5em 2em;
+    padding: 8em 2em;
     width: 50%;
 }
 footer li{
