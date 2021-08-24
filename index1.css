@@ -99,11 +99,14 @@ p{
     color: white;
     font-weight: 550;
 }
-#picture2{
+#picture2P{
     position: absolute;
     overflow-x: hidden;
     top: -19em;
     width: 100%;
+}
+#picture2D{
+    display: none;
 }
 #pbgimg{
     width: 100%;

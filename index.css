@@ -99,8 +99,11 @@ p{
 main{
     background-color: hsl(218, 28%, 13%);
 }
-#picture2{
+#picture2D{
     width: 100%;
+}
+#picture2P{
+    display: none;
 }
 #dbgimg{
     width: 100%;
